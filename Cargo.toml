@@ -1,0 +1,15 @@
+[package]
+authors = ["foxxorcat"]
+description = "Driver for the registers on a TLV320AIC3204 I²C Audio CODEC"
+edition = "2021"
+homepage = "https://github.com/foxxorcat/tlv320aic3204"
+license = "MIT"
+name = "tlv320aic3204"
+readme = "README.md"
+repository = "https://github.com/foxxorcat/tlv320aic3204.git"
+version = "0.1.0"
+
+[dependencies]
+bitflags = "2.9.1"
+embedded-hal = "1.0.0-alpha.9"
+
